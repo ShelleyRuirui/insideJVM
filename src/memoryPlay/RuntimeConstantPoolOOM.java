@@ -1,7 +1,7 @@
 package memoryPlay;
 
 /*
- * VM Args:-XX:PermSize=10K -XX:MaxPermSize=10K
+ * VM Args:-XX:PermSize=10M -XX:MaxPermSize=10M
  */
 import java.util.ArrayList;
 import java.util.List;

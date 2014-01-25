@@ -30,6 +30,17 @@ public class FinalizeEscapeGC {
 		}
 		else
 			System.out.println("I am collected back");
+		
+		SAVE_HOOK=null;
+		System.gc();
+		Thread.sleep(600);
+		if(SAVE_HOOK!=null){
+			SAVE_HOOK.isAlive();
+//			SAVE_HOOK.finalize();
+//			SAVE_HOOK.finalize();
+		}
+		else
+			System.out.println("I am collected back");
 	}
 
 }

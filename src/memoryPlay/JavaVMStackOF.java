@@ -12,7 +12,7 @@ public class JavaVMStackOF {
 		stackLeak();
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Throwable {
 		JavaVMStackOF oom=new JavaVMStackOF();
 		try{
 			oom.stackLeak();
