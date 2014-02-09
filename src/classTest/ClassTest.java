@@ -7,7 +7,7 @@ public class ClassTest {
 	 * @throws ClassNotFoundException 
 	 */
 	public static void main(String[] args) throws ClassNotFoundException {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		Class clazz=Class.forName("java.lang.Class");
 		System.out.println("Class name:"+clazz.getName());
 		Class superClass=clazz.getSuperclass();
